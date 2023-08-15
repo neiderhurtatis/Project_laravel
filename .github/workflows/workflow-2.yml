@@ -12,16 +12,16 @@ jobs:
 
     steps:
     - name: Primer paso ejecutado J1W2
-    - uses: actions/checkout@v3
+      uses: actions/checkout@v3
 
     - name: Comando paso dos J1W2
-    - run: echo "Paso dos del workflow 2"
+      run: echo "Paso dos del workflow 2"
 
     - name: Comando paso tres J1W2
-    - run: echo "Paso tres del workflow 2"
+      run: echo "Paso tres del workflow 2"
 
     - name: Ultimo comando J1W2
-    - run: echo "Paso cuatro del workflow 2"
+      run: echo "Paso cuatro del workflow 2"
 
   job_prueba_2_W2:
 
@@ -29,13 +29,13 @@ jobs:
 
     steps:
     - name: Primer paso ejecutado J2W2
-    - uses: actions/checkout@v3
+      uses: actions/checkout@v3
 
     - name: Comando paso dos J2W2
-    - run: echo "Paso dos del workflow 1"
+      run: echo "Paso dos del workflow 1"
 
     - name: Comando paso tres J2W2
-    - run: echo "Paso tres del workflow 1"
+      run: echo "Paso tres del workflow 1"
 
     - name: Ultimo comando J2W2
-    - run: echo "Paso cuatro del workflow 1"
+      run: echo "Paso cuatro del workflow 1"

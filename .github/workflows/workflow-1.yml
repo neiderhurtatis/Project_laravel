@@ -12,13 +12,13 @@ jobs:
 
     steps:
     - name: Primer paso ejecutado J1W1
-    - uses: actions/checkout@v3
+      uses: actions/checkout@v3
 
     - name: Comando paso dos J1W1
-    - run: echo "Paso dos del workflow 1"
+      run: echo "Paso dos del workflow 1"
 
     - name: Comando paso tres J1W1
-    - run: echo "Paso tres del workflow 1"
+      run: echo "Paso tres del workflow 1"
 
     - name: Ultimo comando J1W1
-    - run: echo "Paso cuatro del workflow 1"
+      run: echo "Paso cuatro del workflow 1"
