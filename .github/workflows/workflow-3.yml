@@ -1,0 +1,24 @@
+name: Workflow 3
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  job_prueba_1_W1:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Primer paso ejecutado J1W3
+      uses: actions/checkout@v3
+
+    - name: Comando paso dos J1W3
+      run: echo "Paso dos del workflow 3"
+
+    - name: Comando paso tres J1W3
+      run: echo "Paso tres del workflow 3"
+
+    - name: Ultimo comando J1W3
+      run: echo "Paso cuatro del workflow 3"
